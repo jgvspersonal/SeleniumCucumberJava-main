@@ -22,7 +22,7 @@ public class GoogleSteps {
     @When("^I enter a search criteria$")
     public void enterSearchCriteria(){
 
-        google.enterSearchCriteria("Argentina");
+        google.enterSearchCriteria("Colombia");
     }
 
     @And("^click on the search button$")
@@ -34,6 +34,6 @@ public class GoogleSteps {
     @Then("^the results match the criteria$")
     public void validateResults(){
 
-        Assert.assertEquals("Argentina", google.firstResult());
+        Assert.assertEquals("Colombia", google.firstResult());
     }
 }

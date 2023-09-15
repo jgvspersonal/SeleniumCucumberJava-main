@@ -3,6 +3,7 @@ package pages;
 public class GooglePage extends BasePage{
 
     private String searchButton = "//body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]/div[1]/div[2]/div[1]/div[1]/span[1]";
+    //Aca hubo un cambio, como no tomaba el botón, se puso a buscar por el primer item que encuentra de la busqueda
     private String searchTextField = "//textarea[@id='APjFqb']";
     private String firstResult = "//body/div[@id='main']/div[@id='cnt']/div[@id='rcnt']/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]";
 
