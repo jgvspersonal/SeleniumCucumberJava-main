@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Google search functionality" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-15T18:30:33" hostname="LENOVO-PC" time="15.271">
+  <properties/>
+  <testcase name="As a user I enter a search criteria in Google" classname="Test Google search functionality" time="15.271"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 117.0.5938.62 (25a7172909a4cba7355365cf424d7d7eb35231f4-refs/branch-heads/5938@{#1146}) on port 35929
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 15, 2023 1:30:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
